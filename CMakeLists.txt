@@ -38,6 +38,8 @@ else()
     else()
         add_executable(SimulatedAnnealing
             ${PROJECT_SOURCES}
+            resource.qrc
+
         )
     endif()
 endif()
