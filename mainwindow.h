@@ -27,6 +27,6 @@ private:
 
     void drawChessBoard(QGridLayout *layout, int countQueens) ;
 
-    static QLabel *getElementChessBoard(int size, int i, int j) ;
+    static QLabel *getElementChessBoard(int size, int i, int j, bool hasQueen);
 };
 #endif // MAINWINDOW_H

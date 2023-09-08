@@ -17,6 +17,14 @@ set(PROJECT_SOURCES
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
+        libs/simulatedAnnealing/state/State.cpp
+        libs/simulatedAnnealing/state/State.h
+        libs/simulatedAnnealing/solver/Solver.cpp
+        libs/simulatedAnnealing/solver/Solver.h
+        libs/simulatedAnnealing/task/Task.cpp
+        libs/simulatedAnnealing/task/Task.h
+        libs/nQueens/task/NQueensTask.cpp
+        libs/nQueens/task/NQueensTask.h
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

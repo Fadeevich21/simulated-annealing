@@ -92,6 +92,30 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/fadeevich/Qt/SimulatedAnnealing/libs/nQueens/task/NQueensTask.h",
+			"MU",
+			"Y5EJLFXGRD/moc_NQueensTask.cpp",
+			null
+		],
+		[
+			"/home/fadeevich/Qt/SimulatedAnnealing/libs/simulatedAnnealing/solver/Solver.h",
+			"MU",
+			"VQTQPFZ5P7/moc_Solver.cpp",
+			null
+		],
+		[
+			"/home/fadeevich/Qt/SimulatedAnnealing/libs/simulatedAnnealing/state/State.h",
+			"MU",
+			"GXD37TDESG/moc_State.cpp",
+			null
+		],
+		[
+			"/home/fadeevich/Qt/SimulatedAnnealing/libs/simulatedAnnealing/task/Task.h",
+			"MU",
+			"EJZ53XZRLV/moc_Task.cpp",
+			null
+		],
+		[
 			"/home/fadeevich/Qt/SimulatedAnnealing/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -147,6 +171,26 @@
 	"SETTINGS_FILE" : "/home/fadeevich/Qt/SimulatedAnnealing/cmake-build-debug/CMakeFiles/SimulatedAnnealing_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"/home/fadeevich/Qt/SimulatedAnnealing/libs/nQueens/task/NQueensTask.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/fadeevich/Qt/SimulatedAnnealing/libs/simulatedAnnealing/solver/Solver.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/fadeevich/Qt/SimulatedAnnealing/libs/simulatedAnnealing/state/State.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/fadeevich/Qt/SimulatedAnnealing/libs/simulatedAnnealing/task/Task.cpp",
+			"MU",
+			null
+		],
 		[ "/home/fadeevich/Qt/SimulatedAnnealing/main.cpp", "MU", null ],
 		[ "/home/fadeevich/Qt/SimulatedAnnealing/mainwindow.cpp", "MU", null ]
 	],
