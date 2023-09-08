@@ -1,0 +1,9 @@
+/home/fadeevich/Qt/SimulatedAnnealing/cmake-build-debug/CMakeFiles/SimulatedAnnealing.dir
+/home/fadeevich/Qt/SimulatedAnnealing/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/fadeevich/Qt/SimulatedAnnealing/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/fadeevich/Qt/SimulatedAnnealing/cmake-build-debug/CMakeFiles/list_install_components.dir
+/home/fadeevich/Qt/SimulatedAnnealing/cmake-build-debug/CMakeFiles/install.dir
+/home/fadeevich/Qt/SimulatedAnnealing/cmake-build-debug/CMakeFiles/install/local.dir
+/home/fadeevich/Qt/SimulatedAnnealing/cmake-build-debug/CMakeFiles/install/strip.dir
+/home/fadeevich/Qt/SimulatedAnnealing/cmake-build-debug/CMakeFiles/SimulatedAnnealing_autogen_timestamp_deps.dir
+/home/fadeevich/Qt/SimulatedAnnealing/cmake-build-debug/CMakeFiles/SimulatedAnnealing_autogen.dir
