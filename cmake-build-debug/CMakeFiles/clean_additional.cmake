@@ -6,5 +6,8 @@ if("${CONFIG}" STREQUAL "" OR "${CONFIG}" STREQUAL "Debug")
   "CMakeFiles/SimulatedAnnealing_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/SimulatedAnnealing_autogen.dir/ParseCache.txt"
   "SimulatedAnnealing_autogen"
+  "libs/QCustomPlot-library-master/lib/CMakeFiles/qcustomplot_autogen.dir/AutogenUsed.txt"
+  "libs/QCustomPlot-library-master/lib/CMakeFiles/qcustomplot_autogen.dir/ParseCache.txt"
+  "libs/QCustomPlot-library-master/lib/qcustomplot_autogen"
   )
 endif()

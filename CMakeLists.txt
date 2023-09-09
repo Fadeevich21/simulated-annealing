@@ -78,3 +78,11 @@ install(TARGETS SimulatedAnnealing
 if(QT_VERSION_MAJOR EQUAL 6)
     qt_finalize_executable(SimulatedAnnealing)
 endif()
+
+add_subdirectory(libs/QCustomPlot-library-master)
+# Link needed libraries
+# QCustomPlot library
+target_link_libraries(${PROJECT_NAME} PRIVATE qcustomplot)
+
+# Compile needed definitions
+target_compile_definitions(${PROJECT_NAME} PRIVATE QCUSTOMPLOT_USE_LIBRARY)

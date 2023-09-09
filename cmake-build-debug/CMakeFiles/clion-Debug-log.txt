@@ -1,4 +1,11 @@
 /home/fadeevich/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/fadeevich/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -G Ninja -S /home/fadeevich/Qt/SimulatedAnnealing -B /home/fadeevich/Qt/SimulatedAnnealing/cmake-build-debug
--- Configuring done (0.0s)
+-- The C compiler identification is GNU 12.3.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Project "qcustomplot" compiled with C++ standard 17
+-- Configuring done (0.3s)
 -- Generating done (0.0s)
 -- Build files have been written to: /home/fadeevich/Qt/SimulatedAnnealing/cmake-build-debug

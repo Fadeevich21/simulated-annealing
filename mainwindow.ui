@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1000</width>
-    <height>800</height>
+    <height>1000</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,8 +17,8 @@
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>560</x>
-      <y>150</y>
+      <x>550</x>
+      <y>20</y>
       <width>421</width>
       <height>217</height>
      </rect>
@@ -196,7 +196,7 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>110</y>
+      <y>20</y>
       <width>500</width>
       <height>500</height>
      </rect>
@@ -215,11 +215,11 @@
      </property>
     </widget>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>740</x>
-      <y>460</y>
+      <x>160</x>
+      <y>540</y>
       <width>83</width>
       <height>24</height>
      </rect>
@@ -251,6 +251,36 @@
      </item>
     </layout>
    </widget>
+   <widget class="QCustomPlot" name="graphicsEnergyToTemperature" native="true">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>260</y>
+      <width>391</width>
+      <height>311</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QCustomPlot" name="graphicsCountTakeBadSolutionsToTemperature" native="true">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>620</y>
+      <width>391</width>
+      <height>311</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QCustomPlot" name="graphicsTemperatureOnIteration" native="true">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>620</y>
+      <width>391</width>
+      <height>311</height>
+     </rect>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -264,6 +294,14 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QCustomPlot</class>
+   <extends>QWidget</extends>
+   <header>qcustomplot.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections/>
 </ui>

@@ -4,6 +4,7 @@
 
 
 #include <vector>
+#include <map>
 
 namespace SimulatedAnnealing {
 
@@ -11,6 +12,11 @@ namespace SimulatedAnnealing {
     private:
         std::vector<int> state;
         int energy{};
+
+    public:
+        std::map<float, int> dependenceBestEnergyOnTemperature;
+        std::map<float, int> dependenceCountTakeBadSolutionsOnTemperature;
+        std::map<int, float> dependenceTemperatureOnIteration;
 
     public:
         explicit State(std::size_t size);

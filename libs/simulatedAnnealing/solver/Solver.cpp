@@ -19,6 +19,10 @@ namespace SimulatedAnnealing {
     State Solver::operator()(std::size_t size) const {
         State workingState(size);
 
+        std::map<float, int> dependenceBestEnergyOnTemperature;
+        std::map<float, int> dependenceCountTakeBadSolutionsOnTemperature;
+        std::map<int, float> dependenceTemperatureOnIteration;
+
         task->init(workingState);
         workingState.setEnergy(task->computeEnergy(workingState));
 
@@ -26,7 +30,9 @@ namespace SimulatedAnnealing {
         State currentState = workingState;
 
         float temperature = maxTemperature;
+        int i = 0;
         while (temperature >= minTemperature) {
+            int countTakeBadSolutions = 0;
             if (temperature != 0) {
                 for (int step = 0; step < countSteps; step++) {
                     int x = RAND_RANGE(0, size - 1);
@@ -48,6 +54,7 @@ namespace SimulatedAnnealing {
                                 -std::abs(currentState.getEnergy() - workingState.getEnergy()) / temperature);
                         float p1 = RAND_RANGE_REAL(0.0, 1.0);
                         if (p1 <= p) {
+                            countTakeBadSolutions++;
                             currentState = workingState;
                         }
                     }
@@ -56,8 +63,16 @@ namespace SimulatedAnnealing {
                 }
             }
 
+            dependenceBestEnergyOnTemperature[temperature] = bestState.getEnergy();
+            dependenceCountTakeBadSolutionsOnTemperature[temperature] = countTakeBadSolutions;
+            dependenceTemperatureOnIteration[++i] = temperature;
+
             temperature *= alpha;
         }
+
+        bestState.dependenceBestEnergyOnTemperature = dependenceBestEnergyOnTemperature;
+        bestState.dependenceCountTakeBadSolutionsOnTemperature = dependenceCountTakeBadSolutionsOnTemperature;
+        bestState.dependenceTemperatureOnIteration = dependenceTemperatureOnIteration;
 
         return bestState;
     }
