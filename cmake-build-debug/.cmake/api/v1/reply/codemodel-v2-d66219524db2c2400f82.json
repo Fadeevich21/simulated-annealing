@@ -1,0 +1,166 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-036158ed722597024f88.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"build" : "libs/QCustomPlot-library-master",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-libs.QCustomPlot-library-master-Debug-950226ba77e726b8aa6b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "libs/QCustomPlot-library-master"
+				},
+				{
+					"build" : "libs/QCustomPlot-library-master/lib",
+					"jsonFile" : "directory-libs.QCustomPlot-library-master.lib-Debug-49a6add620fadbb8950a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "libs/QCustomPlot-library-master/lib",
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SimulatedAnnealing",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "qcustomplotroot",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "qcustomplot",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "SimulatedAnnealing::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SimulatedAnnealing-Debug-add31965686ca364f1a3.json",
+					"name" : "SimulatedAnnealing",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SimulatedAnnealing_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SimulatedAnnealing_autogen-Debug-d5635cbb4634fc175466.json",
+					"name" : "SimulatedAnnealing_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SimulatedAnnealing_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SimulatedAnnealing_autogen_timestamp_deps-Debug-a5932dd5bab1679ffad8.json",
+					"name" : "SimulatedAnnealing_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "qcustomplot::@d571b06709ec0aeb761f",
+					"jsonFile" : "target-qcustomplot-Debug-efa5cdad772e3f4b2dd1.json",
+					"name" : "qcustomplot",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "qcustomplot_autogen::@d571b06709ec0aeb761f",
+					"jsonFile" : "target-qcustomplot_autogen-Debug-9ae859ab3377de4e5082.json",
+					"name" : "qcustomplot_autogen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "qcustomplot_autogen_timestamp_deps::@d571b06709ec0aeb761f",
+					"jsonFile" : "target-qcustomplot_autogen_timestamp_deps-Debug-5360c40e1da350219d09.json",
+					"name" : "qcustomplot_autogen_timestamp_deps",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/fadeevich/Qt/SimulatedAnnealing/cmake-build-debug",
+		"source" : "/home/fadeevich/Qt/SimulatedAnnealing"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

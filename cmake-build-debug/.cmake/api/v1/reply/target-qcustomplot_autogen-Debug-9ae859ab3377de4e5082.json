@@ -1,0 +1,71 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"libs/QCustomPlot-library-master/lib/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "qcustomplot_autogen_timestamp_deps::@d571b06709ec0aeb761f"
+		}
+	],
+	"id" : "qcustomplot_autogen::@d571b06709ec0aeb761f",
+	"isGeneratorProvided" : true,
+	"name" : "qcustomplot_autogen",
+	"paths" : 
+	{
+		"build" : "libs/QCustomPlot-library-master/lib",
+		"source" : "libs/QCustomPlot-library-master/lib"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/libs/QCustomPlot-library-master/lib/CMakeFiles/qcustomplot_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/libs/QCustomPlot-library-master/lib/CMakeFiles/qcustomplot_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/libs/QCustomPlot-library-master/lib/qcustomplot_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}
